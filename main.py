@@ -8,7 +8,7 @@ def parseInput(string):
 
 def main():
     # Take User Input as elements of groups (A, B, C, ...)
-    print("Welcome to te F-score Computer!")
+    print("Welcome to the F-score Computer!")
     groups = []
     for i in range(0, 4):
         ugroup = []
