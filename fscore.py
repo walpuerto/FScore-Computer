@@ -1,4 +1,4 @@
-def fscore(groups, α):
+def fscore(groups):
     # Solve N and k
     N = 0
     k = len(groups)
