@@ -1,5 +1,3 @@
-import numpy
-
 def parseInput(string):
     try:
         return [float(i) for i in string.split(",")]
