@@ -12,6 +12,9 @@ def fscore(groups):
         x̄ += sum(group)
     x̄ /= N
 
+    if k == N:
+        raise ValueError("Only one sample per class. Cannot calculate F-score.")
+
     # Caculate SSB
     SSB = 0
     for i in range(k):

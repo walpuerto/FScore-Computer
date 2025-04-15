@@ -928,7 +928,7 @@ valid2dfs = [
 ]
 
 def getCV(s2df, alpha):
-    if s2df not in valid2dfs: return False
+    if s2df not in valid2dfs: raise ValueError(f"Invalid s2df: {s2df}. Check precomputed.py for valid s2df.")
     if alpha == 0.05: return a0002[s2df]
     if alpha == 0.01: return a0001[s2df]
     return False
